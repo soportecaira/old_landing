@@ -1,0 +1,87 @@
+/*-------------------------------------------------
+  Dashboard common file for Analytics & eCommmerce
+--------------------------------------------------*/
+#revenue-chart span i.material-icons
+{
+    position: relative;
+    top: 5px;
+}
+
+#revenue-chart .yearly-revenue-chart
+{
+    position: relative;
+}
+
+#revenue-chart .yearly-revenue-chart canvas
+{
+    width: 100% !important;
+    height: 350px !important;
+}
+
+#revenue-chart .yearly-revenue-chart canvas.firstShadow
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#weekly-earning h3.header
+{
+    margin: 2.4rem 0 2.3rem 0;
+}
+
+#weekly-earning canvas
+{
+    width: 100% !important;
+    height: 110 !important;
+    margin: 10px 0 10px -18px;
+}
+
+#weekly-earning .center-align p
+{
+    margin-bottom: 1rem;
+}
+
+.gradient-caira{
+
+    background: #624585;
+    background: -webkit-linear-gradient(to right, #624585 0%, #b857cd 100%) !important;
+    background: linear-gradient(to right, #624585 0%, #b857cd 100%) !important;
+}
+
+h5{
+    color: #624585;
+    margin-top: 15px;
+}
+
+.add-course{
+    display: none;
+    margin-left:  65px;
+    margin-right: 50px; 
+    background-color:  rgb(245, 245, 245);
+    border-radius: 30px;
+    box-shadow: 5px 5px 3px #aaaaaa;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+#submit-course-details{
+    margin-bottom: 0 !important;
+}
+.add-course-button{
+    margin-bottom: 20px !important;
+    margin-left:  20px;
+}
+
+input[type="text"],select{
+   width: 70% !important;
+    height: 50px !important;
+    padding:  0 !important;
+}
+select{
+    margin: 0px 0px 8px 42px;
+}
+label{
+    margin-top: 10px;
+    margin-left: 50px !important;
+    padding: 0;
+}

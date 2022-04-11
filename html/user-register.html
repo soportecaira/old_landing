@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="Materialize is a Material Design Admin Template,It's modern, responsive and based on Material Design by Google.">
+    <meta name="keywords" content="materialize, admin template, dashboard template, flat admin template, responsive admin template, eCommerce dashboard, analytic dashboard">
+    <meta name="author" content="ThemeSelect">
+    <title>Caira | User Register</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../img/CairaFavIcon.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/vendors/vendors.min.css">
+    <link rel="stylesheet" href="../css/themes/vertical-dark-menu-template/materialize.css">
+    <link rel="stylesheet" href="../css/themes/vertical-dark-menu-template/style.css">
+    <link rel="stylesheet" href="../css/register.css">
+
+    <!-- END: Page Level CSS-->
+</head>
+<!-- END: Head-->
+
+<body>
+    
+    <div class="container">
+        <div id="register-page" class="row">
+            <form class="seleccion-registro" action="" id="r-select">
+                <div id="texto-select">Select your type of register:</div>
+                <button form="seleccion-registro" id="students" class="btn waves-effect waves-light border-round gradient-45deg-purple-deep-orange gradient-caira col s12">I'm a student</button>
+                <button form="seleccion-registro" id="universities" class="btn waves-effect waves-light border-round gradient-45deg-purple-deep-orange gradient-caira col s12">I'm a studies center</button>
+            </form>
+            <div class="register-form">
+                <form class="login-form">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <h5 class="ml-4">Students Register</h5>
+                            <p class="ml-4">Join to our community now and meet your perfect university!</p>
+                        </div>
+                    </div>
+                    <div class="row margin">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">person_outline</i>
+                            <input id="username" type="text">
+                            <label for="username" class="center-align">Username</label>
+                        </div>
+                    </div>
+                    <div class="row margin">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">mail_outline</i>
+                            <input id="email" type="email">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row margin">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">lock_outline</i>
+                            <input id="password" type="password">
+                            <label for="password">Password</label>
+                        </div>
+                    </div>
+                    <div class="row margin">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">lock_outline</i>
+                            <input id="password-again" type="password">
+                            <label for="password-again">Password again</label>
+                        </div>
+                    </div>
+                    <div class="row margin">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">school</i>
+                            <select>
+                                <option value="" disabled selected></option>
+                                <option value="master">Master's degree</option>
+                                <option value="degree">Degree</option>
+                                <option value="professional">Professional training</option>
+                                <option value="bachelor">Bachelor's degree</option>
+                            </select>
+                            <label for="studies-level" class="center-align">Studies Level</label>
+                        </div>
+                    </div>
+                    <div class="row margin">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">location_on</i>
+                            <input id="location" type="text">
+                            <label for="location" class="center-align">Location</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <a href="dashboard.html" class="btn waves-effect waves-light border-round gradient-45deg-purple-deep-orange gradient-caira col s12">Register</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <p class="margin medium-small"><a href="user-login.html">Already have an account? Login</a></p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+                  
+            <div class="register-form">
+                <div>
+                    <h5 class="ml-4">Universities Register</h5>
+                    <p class="ml-4">Join to our community now and meet your new students!</p>
+                <div>
+                <form class="login-form">
+                    <div class="row margin">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">account_balance</i>
+                            <input id="username" type="text">
+                            <label for="username" class="center-align">Username</label>
+                        </div>
+                    </div>
+                    <div class="row margin">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">mail_outline</i>
+                            <input id="email" type="email">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row margin">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">lock_outline</i>
+                            <input id="password" type="password">
+                            <label for="password">Password</label>
+                        </div>
+                    </div>
+                    <div class="row margin">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">lock_outline</i>
+                            <input id="password-again" type="password">
+                            <label for="password-again">Password again</label>
+                        </div>
+                    </div>
+                    <div class="row margin">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">school</i>
+                            <select>
+                                <option value="" disabled selected></option>
+                                <option value="university">University</option>
+                                <option value="technical-college">Technical College</option>
+                                <option value="academy">Academy</option>
+                            </select>
+                            <label for="studies-center-type" class="center-align">Studies Center Type</label>
+                        </div>
+                    </div>
+                    <div class="row margin">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">location_on</i>
+                            <input id="location" type="text">
+                            <label for="location" class="center-align">Location</label>
+                        </div>
+                    </div>
+                    <div class="row margin">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix ">web</i>
+                            <input id="website" type="text">
+                            <label for="website">Website</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <a href="dashboard-center.html" class="btn waves-effect waves-light border-round gradient-45deg-purple-deep-orange gradient-caira col s12">Register</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <p class="margin medium-small"><a href="user-login.html">Already have an account? Login</a></p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="content-overlay"></div>
+    
+
+    <!-- BEGIN VENDOR JS-->
+    <script src="../js/vendors.min.js"></script>
+    <script src="../js/register.js"></script>
+    <!-- END THEME  JS-->
+    <!-- BEGIN PAGE LEVEL JS-->
+    <!-- END PAGE LEVEL JS-->
+</body>
+
+</html>

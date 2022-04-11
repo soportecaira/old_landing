@@ -1,0 +1,334 @@
+/*================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 5.0
+	Author: PIXINVENT
+	Author URL: https://themeforest.net/user/pixinvent/portfolio
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+body{
+	background-color: white;
+}
+.brand-logo img{
+	height: 70px !important;
+}
+.sidenav {
+	top: 100px !important;
+}
+.nav-list{
+	display: flex;
+	list-style: none;
+}
+.navbar-main{
+	background-color: aqua !important;
+}
+#main{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+#main h2{
+	color: purple;
+}
+#search{
+	color: #333333;
+	font-size: 20px;
+}
+#search-form{
+	border: 3px solid purple;
+	padding: 20px;
+	padding-top: 10px;
+	border-radius: 30px;
+	margin-bottom: 40px;
+	background: #f7aae68c;
+}
+.course-card{
+	display: flex;
+	height: 160px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: rgb(245, 245, 245);
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 10px 10px 5px #aaaaaa;
+}
+.course-card img{
+	width: 100px;
+	height: 100px;
+	margin-right: 30px;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 100%;
+}
+.center{
+	color: purple;
+	font-weight: bold;
+	margin-right: 10px;
+}
+input[type="submit"]{
+	background: rgb(33,6,45);
+	background: linear-gradient(90deg, rgba(33,6,45,1) 0%, rgba(121,9,107,1) 100%, rgba(0,212,255,1) 100%); 
+	color: white;
+	font-weight: bold;
+	height: 40px;
+	width: 100px;
+	padding: 10px;
+	text-align: center;
+	border: none;
+	border-radius: 20px;
+	margin-left: 20px;
+}
+input[type="submit"]:hover{
+	background: rgb(114,14,118);
+	background: linear-gradient(90deg, rgba(114,14,118,1) 0%, rgba(121,9,107,1) 7%, rgba(221,174,255,1) 100%); 
+}
+
+input[type="text"],select{
+	border-bottom: 2px solid #333333 !important;
+	width: 160px;
+}
+
+label{
+	color:rgba(27, 26, 26, 0.9) !important;
+}
+.cc-info-2{
+	margin-top: 15px;
+	width: 20%;
+	margin-left: 20px
+}
+.cc-info-1{
+	width: 55%;
+}
+.price{
+	font-size: 30px;
+	color: purple;
+	letter-spacing: 10px;
+	margin-top: 5px;
+	margin-right: 5%;
+	width: 15%;
+}
+.loc{
+	color:#333333
+}
+
+/*PAGINA PERFIL*/
+.profile-pic{
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+}
+.small-profile-pic{
+	width: 75px;
+	height: 75px;
+	border-radius: 100%;
+}
+.subtitle{
+	display: flex;
+}
+.subtitle p{
+	margin-right: 15px !important;
+	margin-top: 2px !important;
+}
+.feed-hr{
+	width: 92%;
+	float: right;
+	margin-bottom: 10px;
+}
+#left-column{
+	background-color: rgb(245, 245, 245);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 40px;
+	box-shadow: 5px 5px 3px #aaaaaa;
+}
+.title{
+	margin-left: 7.5%;
+}
+.tab-list{
+	display: flex;
+	align-items: center;
+	margin-left: 7.5%;
+}
+.tab-list li{ 
+	width: 50px;
+}
+.tab-list li a{
+	padding-right: 15px;
+	padding-left: 10px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	display: flex;
+	width: 100px;
+	text-align: center;
+}
+.tab-list li a:hover{ 
+	color: white;
+	background: #14B4FC;
+}
+.active-tab{
+	color: white;
+	background: #14B4FC;
+}
+#feed,#info,#courses{
+	display: none;
+}
+#info h4, #info p{
+	margin-left: 11%;
+	margin-right: 11%;
+	text-align: justify;
+}
+.flex{
+	display: flex;
+	flex-direction: row;
+}
+/* cardc urso en perfil */
+	
+	.course-card-mini{
+		box-shadow: 5px 5px 5px grey;
+		text-align: center;
+		border-radius: 20px;
+		overflow: hidden;
+		margin-left: 10%;
+		margin-bottom: 50px;
+		height: 450px;
+		width: 83%;
+		background-color: rgb(245, 245, 245);
+	}
+	.m{
+		width: 37% !important;
+		margin-right:0;
+	}
+	
+	.product-details {
+		text-align: center;
+		overflow: hidden;
+		padding: 30px;
+		height: 100%;
+		float: left;
+		width: 60%;
+	}
+	.product-details-m{
+		text-align: center;
+		overflow: hidden;
+		padding: 30px;
+		height: 100%;
+		float: left;
+		width: 90%;
+	}
+	
+	.course-card-mini .product-details h1{
+		font-size: 30px;
+	}
+	.m .product-details-m h1{
+		font-size: 20px;
+	}
+	
+	.hint-star {
+		display: inline-block;
+		color: gold;
+	}
+	
+	.course-card-mini .product-details > p {
+		text-align: center;
+		font-size: 18px;
+	}
+	
+	.btn {
+		transition: 0.3s linear;
+		background:  #809fff;
+		border-radius: 35px;
+		color: rgb(245, 245, 245);
+	}
+
+	.product-image {
+		transition: all 0.3s ease-out;
+		display: inline-block;
+		position: relative;
+		overflow: hidden;
+		height: 100%;
+		float: right;
+		width: 40%;
+		display: inline-block;
+	}
+	
+	.course-card-mini img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.info {
+		padding: 20px;
+		background: rgba(27, 26, 26, 0.9);
+		transition: all 0.3s ease-out;
+		transform: translateX(-100%);
+		position: absolute;
+		line-height: 1.8;
+		text-align: center;
+		font-size: 105%;
+		cursor: no-drop;
+		color: rgb(245, 245, 245);
+		height: 100%;
+		width: 100%;
+		left: 0;
+		top: 0;
+	}
+	.info h5{
+		color: white;
+		font-weight: bold;
+	}
+	.info ul li span{
+		font-weight: bold;
+	}
+	
+	.info h2 {text-align: center}
+	.product-image:hover .info{transform: translateX(0);}
+	
+	.product-image:hover img {transition: all 0.3s ease-out;}
+	.product-image:hover img {transform: scale(1.2, 1.2);}
+
+
+@media (max-width: 1460px) {
+	input[type="text"],select{
+		width: 13%;
+	}
+}
+
+/* dash centro */
+
+#diamond{
+	width: 50%;
+}
+
+.responsive-table{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#graph{
+	padding: 40px;
+	border-radius: 30px;
+	max-width: 940px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .12), 0 1px 5px 0 rgba(0, 0, 0, .2);
+}
+#students-g{
+	padding: 10px;
+	width: 80%;
+	border-radius: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 10px;
+}
+
+#students-g h5{
+	margin-left: 16px;
+	color: #46BFBD;
+}
+#canva-div{
+	padding: 10px;
+}
+#line-chart{
+	max-width: 800px;
+}
+	  
